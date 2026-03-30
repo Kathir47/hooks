@@ -48,7 +48,7 @@ pipeline {
 
     post {
         success {
-            echo "Pipeline passed! App is live."
+            echo "Pipeline passed! App is live. configured the webhook on my own, lets see"
         }
         failure {
             echo "Pipeline failed! Check the logs."
